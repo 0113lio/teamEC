@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+/* ヘッダー */
+
+#header {
+	margin : 0 auto;
+	background-color : #000055;
+	position:relative;
+	height: 130px;
+}
+
+#box1 {
+    width: 70vw;
+    clear: both;
+    font-family: "Modern";
+    margin: 0 auto;
+    display:table;
+}
+
+#box1 ul {
+    padding: 0;
+    margin: 0;
+}
+
+#box1 ul li {
+	list-style : none;
+	display:table-cell;
+}
+
+#h-title {
+	position: absolute;
+    top: 5vh;
+    color: #fff;
+    font-size: 190%;
+	left: 20vw;
+}
+
+#h-menu {
+    position: absolute;
+    top: 6vh;
+    left: 60vw;
+}
+
+.header-btn {
+   height: 18px;
+   cursor: pointer;
+   box-sizing: border-box;
+   border: none;
+   border-left: 2px solid #4b6cb7;
+   background: #000055;
+   width: 85px;
+   color: #DAA520;
+}
+
+#box2 {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+#box2 ul li {
+	list-style : none;
+}
+
+.form2-box {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cate {
+    height: 35px;
+    border-radius: 4px 0 0 4px;
+	width: 140px;
+}
+
+.txt-keywords {
+    width: 44vw;
+    height: 35px;
+    font-size: 1rem;
+    border: 1px solid #4b6cb7;
+    box-sizing: border-box;
+    padding-left: 1vw;
+}
+
+.txt-keywords:focus {
+	border: 1px solid #4b6cb7;
+	color : #011892;
+	outline: 0;
+}
+
+.search-btn {
+    height: 35px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    background: #4b6cb7;
+    width: 80px;
+    border-radius: 0 4px 4px 0;
+    color: #daa520;
+    font-family: "游ゴシック";
+}
+
+.search-btn:hover {
+  background-color: #191970;
+}
+
+
+
+
+
+
+
+
+
